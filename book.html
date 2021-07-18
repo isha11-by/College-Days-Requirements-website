@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css"> 
+    <title>Mini-Project/book store</title>
+    <style>
+        table {
+        width:70%;
+         margin-left:15%;
+         margin-right:15%;
+        
+        }
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+          
+        }
+        th, td {
+          padding: 15px;
+          text-align: center;
+
+        }
+        #t01 tr:nth-child(even) {
+          background-color: #eee;
+        }
+        #t01 tr:nth-child(odd) {
+         background-color: #fff;
+        }
+        #t01 th {
+          background-color: black;
+          color: white;
+        }
+        </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#"><img id="logo" src="img/logo.png" alt=""></a> 
+        <h2 id="head">College Days Requirements Portal</h2>
+        <ul>  
+          <a href="index.php"><li>Home</li></a> 
+          <a href="about.html"> <li>About</li></a> 
+          <a href="contact.html"><li>Contacts</li></a>   
+          <a href="logout.php"><li>Logout</li></a>  
+          <li> <input type="text" id="search"></li>
+          <li><button id="srbtn">Search</button></li>
+        </ul> 
+     </div>
+     <hr>
+     <h2 style="text-align: left;"> Book Stores</h2>
+     <table id="t01">
+        <tr>
+            <th>S.No.</th>
+                         <th>Book Stores</th>
+                         <th>Contact No.</th>
+                         <th>Location</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Rapid Book Store</td>
+            <td>+919011403211</td>
+            <td><a href="">2A/1, IIM Road, IIM Lucknow, Lucknow - 226013, Near Maharishi University (Map)</a></td>
+        </tr>
+        <tr>
+            <td>2</td>
+                        <td>mahaveer Book Center</td>
+                        <td>+919415027432</td>
+                        <td><a href="">NARAYAN PLAZA ENGINEERING COLLEGE LKO, ALIAGAN, Lucknow - 226020, Near IET (Map)</a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Singh Book Store</td>
+            <td>+91901140321</td>
+            <td><a href="">Sahara Road, Kapoorthala, Lucknow - 226024 (Map)</a></td>
+        </tr>
+        <tr>
+            <td>4</td>
+                        <td>Yogi Book Store </td>
+                        <td>07947274651</td>
+                        <td><a href="">NEAR BABUGANJ POLICE CHOWKI, BALAji SAREE SHOWROOM, Faizabad Road, Nirala Nagar, Lucknow - 226002</a></td>
+                </tr>
+                
+      </table>
+</body>
+</html>

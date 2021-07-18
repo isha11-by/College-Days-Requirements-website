@@ -1,0 +1,139 @@
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background: #00c6ff;  
+    background: -webkit-linear-gradient(to top, #0072ff, #00c6ff);  
+    background: linear-gradient(to top, #0072ff, #00c6ff); 
+      background-position: center;
+   }
+      
+   #logo{
+       width: 90px;
+       height: 80px;
+       float: left;
+       margin: auto;   
+   }
+   ul{
+       text-align:  right;
+       margin: auto;
+       list-style: none;
+       margin-right: 30px;
+       margin-top: 25px;
+       
+   }
+   
+   ul li{ 
+       
+       display: inline-block;
+       padding: 0px 10pxs;
+       margin-left: 15px;
+       text-align: right;
+       font-family: helvetica;
+       color: black;
+       
+      }
+      ul li:hover{ 
+       
+       color: rgb(255, 37, 37);
+     
+      }  
+   
+     #search{   
+         
+       width: 150px;
+       border-radius: 5px;
+       height: 20px;
+       border: 2px solid rgb(177, 218, 167);    
+     } 
+   
+     #srbtn{
+       height: 25px;
+       width: 70px;
+       border-radius: 4px;
+       border: 2px solid rgb(177, 218, 167);  
+       background-color: rgb(192, 241, 190);  
+       font-family:verdana;
+       font-size: 16px;
+       cursor: pointer;        
+     }
+  
+     #head{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: left;
+      float: left;
+      font-weight:580;
+      font-size: 50;
+      cursor: pointer;      
+      background: -webkit-linear-gradient(rgb(255, 37, 37), rgb(156, 36, 36));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      
+  }
+  
+  .sem{
+      width: 90%;
+      height: 475px;
+      margin-left: 200px;  
+   
+      margin-top: 60px;
+  }
+  #one,#two,#three,#six,#seven,#eight{
+      width: 250px;
+      height: 100px;    
+      margin-left: 95px;
+      margin-top: 40px;
+      font-size: 25px;
+      font-weight: 15;
+      border-radius: 10px;
+      background-image: linear-gradient(to bottom right,rgb(255, 138, 60),rgb(252, 136, 136));
+      color: rgb(0, 0, 0);
+      cursor: pointer;
+      font-family: Arial, Helvetica, sans-serif;
+      
+  }
+  #userlogo{
+      width: 100px;
+      height: 100px;
+      margin-top:100px;
+      margin-left: -480px;
+      float: top;
+     align-content: left;
+    }
+    
+    .profile{
+      float: left;
+    }
+  
+    #name{
+      margin-top: 50x;
+     margin-left: -480px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 100;
+    }
+    
+  
+  #roll,#course,#branch,#mobile{
+      margin-left: -480px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 100;
+    }
+  #one:hover,#two:hover,#three:hover,#four:hover,#five:hover,#six:hover,#seven:hover,#eight:hover{
+       color: white;
+  
+  }
+  
+  #four,#five{
+      width: 420px;
+      margin-left: 98px;
+      height: 100px;
+      margin-top: 40px;
+      font-size: 25px;
+      border-radius: 15px;
+      font-weight: 10;
+      background-image: linear-gradient(to bottom right,rgb(255, 138, 60),rgb(252, 136, 136));
+      color: rgb(0, 0, 0);
+      cursor: pointer;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
